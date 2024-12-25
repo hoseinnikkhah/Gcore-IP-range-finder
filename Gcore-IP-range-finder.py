@@ -1,6 +1,6 @@
 import json
 from urllib.request import urlopen
-url = "https://api.gcorelabs.com/cdn/public-ip-list"
+url = "https://api.gcore.com/cdn/public-ip-list"
 response = urlopen(url)
 data = json.loads(response.read())
 array = []
